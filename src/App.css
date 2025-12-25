@@ -1,0 +1,22 @@
+/* App specific styles */
+
+html {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+html.dark {
+  background-color: darkslategrey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: transparent;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

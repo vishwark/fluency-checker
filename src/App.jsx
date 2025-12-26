@@ -24,7 +24,7 @@ function App() {
   }, [isDark])
 
   return (
-    <Router basename="/fluency-checker/">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<HomePage isDark={isDark} setIsDark={setIsDark} />} />
         <Route path="/flow" element={<FlowPage isDark={isDark} setIsDark={setIsDark} />} />

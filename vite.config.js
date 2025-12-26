@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/fluency-checker/',
+  base: '/',
   plugins: [tailwindcss(), react()],
 })
